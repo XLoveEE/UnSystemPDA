@@ -73,4 +73,7 @@ public class BaseNFCActivity extends AppCompatActivity {
         super.onPause();
         nfcAdapter.disableForegroundDispatch(this);
     }
+
+
+
 }
